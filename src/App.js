@@ -1,24 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import { Switch, Route } from 'react-router-dom';
+import Class from './pages/Class';
+import Home from './pages/Home';
+import Soccer from './pages/Soccer';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Renatão, Gabi, Thiago, Costelinha, Amandinha
-        </a>
-      </header>
-    </div>
+    <Switch>
+      <Route exact path="/" component={Home} />
+      <Route exact path="/soccer" component={Soccer} />
+      <Route exact path="/class" component={Class} />
+    </Switch>
   );
 }
 
