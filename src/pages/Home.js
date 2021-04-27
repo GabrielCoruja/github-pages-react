@@ -21,10 +21,10 @@ const Home = () => {
         </a>
         <ul>
           <li>
-            <Link to="/soccer">Soccer</Link>
+            <Link to="/github-pages-react/soccer">Soccer</Link>
           </li>
           <li>
-            <Link to="/class">Class</Link>
+            <Link to="/github-pages-react/class">Class</Link>
           </li>
         </ul>
       </header>
