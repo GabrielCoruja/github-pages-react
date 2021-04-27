@@ -11,7 +11,7 @@ const Class = () => {
       />
       <ul>
         <li>
-          <Link to="/">Home</Link>
+          <Link to="/github-pages-react">Home</Link>
         </li>
       </ul>
     </div>
